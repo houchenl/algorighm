@@ -2,7 +2,7 @@
 class MaximumCommonDivisor {
 
     /**
-    * 求最大公约数
+    * get maximum common divisor
     */
     public static int mcd(int p, int q) {
         if (q == 0) return p;
