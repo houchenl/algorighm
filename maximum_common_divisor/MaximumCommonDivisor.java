@@ -11,8 +11,7 @@ class MaximumCommonDivisor {
     }
 
     public static void main(String[] args) {
-        int result = 0;
-        result = mcd(36, 25);
+        int result = mcd(36, 25);
         System.out.println(result + "");
     }
 
