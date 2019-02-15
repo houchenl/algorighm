@@ -2,6 +2,7 @@ package com.yulin.algorithm.main;
 
 import com.yulin.algorithm.other.MaximumCommonDivisor;
 import com.yulin.algorithm.sort.BubbleSort;
+import com.yulin.algorithm.sort.InsertionSort;
 import com.yulin.algorithm.sort.SelectionSort;
 import com.yulin.algorithm.tool.Tool;
 
@@ -11,7 +12,8 @@ public class Main {
 //        System.out.println("Hello World!");
 //        test();
 //        testBubbleSort();
-        testSelectionSort();
+//        testSelectionSort();
+        testInsertionSort();
     }
 
     private static void test() {
@@ -30,6 +32,13 @@ public class Main {
         int[] array = Tool.getUnSortIntArray();
         Tool.printArray(array);
         SelectionSort.selectionSort(array);
+        Tool.printArray(array);
+    }
+
+    private static void testInsertionSort() {
+        int[] array = Tool.getUnSortIntArray();
+        Tool.printArray(array);
+        InsertionSort.insertionSort(array);
         Tool.printArray(array);
     }
 
