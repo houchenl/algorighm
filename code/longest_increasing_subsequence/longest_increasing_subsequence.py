@@ -19,7 +19,7 @@ def solve(array):
         while j < i:
             if array[j] < array[i]:
                 size = lengthArray[j] + 1
-                if (size >= lengthArray[i]):  # // always record the latest element
+                if (size >= lengthArray[i]):  # always record the latest element
                     lengthArray[i] = size
                     previousElementArray[i] = j
             j += 1
