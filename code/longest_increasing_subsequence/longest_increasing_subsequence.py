@@ -33,7 +33,7 @@ def solve(array):
             maxLength = lengthArray[i]
             maxIndex = i
         i += 1
-    print('longest increase subsequence length is', maxLength)
+    print('longest increase subsequence length is', maxLength)  # longest increase subsequence length is 5
 
     result = [0] * maxLength
     index = maxIndex
@@ -44,6 +44,6 @@ def solve(array):
         k -= 1
 
     for item in result:
-        print(item)
+        print(item)  # 1 2 5 6 9
 
 solve([3,1,2,5,0,6,4,9])
